@@ -1,0 +1,14 @@
+
+<%= id = "email_#{@email.id}" %>
+
+<% if @email.read == true %>
+document.getElementById("<%= id %>").style.backgroundColor = "green";
+
+document.getElementById("unread").textContent = "Marquer comme non lu";
+<% else %>
+document.getElementById("<%= id %>").style.backgroundColor = "";
+
+document.getElementById("unread").textContent = "Marquer comme lu";
+
+<% end %>
+
