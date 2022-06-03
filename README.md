@@ -1,5 +1,5 @@
 # 20220601_ajax_mail
-https://google-de-wish.herokuapp.com/emails
+https://google-de-wish.herokuapp.com
 
 ## Table of contents
 * [General info](#general-info)
